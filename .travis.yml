@@ -13,6 +13,5 @@ include:
 - stage: build
 script:
 - tar -xJvf filesystem.tar.xz
-k
 - make
 - tree
